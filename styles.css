@@ -1,0 +1,24 @@
+#head-2 {
+  color: green;
+}
+
+.head-2 {
+  color: purple;
+}
+
+h3 {
+  color: brown;
+}
+
+a.link {
+  color: royalblue;
+}
+
+a.link:hover {
+  color: teal;
+  font-size: 20px;
+}
+
+.links:first-child li {
+  color: black;
+}

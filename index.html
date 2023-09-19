@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+      p {
+        /* property value; */
+        color: purple;
+        background-color: lavenderblush;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <!--There are ways to put CSS in your html:
+          - Inline
+          - Internal / Embedded
+          - External - create a file and link css inside the headtag
+         -->
+
+    <!--Inline css -->
+    <h2 style="color: red" ; font size="30px">Hello World</h2>
+
+    <p>Life is Wonderful</p>
+    <p style="color: red; font-size: 150px" ; text-align="center">
+      September be good to me puhlease
+    </p>
+
+    <h3>Another heading 1</h3>
+
+    <h3 class="head-2" id="head-2" style="color: blueviolet">
+      Another heading 2
+    </h3>
+
+    <!--CSS Specifity
+    
+    inline > id > class > element name 
+
+    -->
+
+    <section class="about">
+      <h2 class="about-title">About Me</h2>
+      <p class="about-textn">About Me Description</p>
+    </section>
+
+    <ul>
+      <li>
+        <a href="#" class="link">Home</a>
+      </li>
+      <li>
+        <a href="#" class="link">About</a>
+      </li>
+      <li>
+        <a href="#" class="link">Contacts</a>
+      </li>
+    </ul>
+
+    <p class="parent">The quick brown fox <em>jumps</em> over</p>
+  </body>
+</html>

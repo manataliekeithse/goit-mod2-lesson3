@@ -1,0 +1,17 @@
+p:first-child {
+  color: blue;
+}
+
+h2 {
+  display: none;
+}
+
+.show:hover h2 {
+  display: block;
+}
+/* target a section tag with a class about */
+section.about {
+}
+/* target about-text class */
+.about .about-text {
+}
